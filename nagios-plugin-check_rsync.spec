@@ -1,5 +1,4 @@
 %define		plugin	check_rsync
-%include	/usr/lib/rpm/macros.perl
 Summary:	Nagios rsync plugin
 Name:		nagios-plugin-%{plugin}
 Version:	1.02
