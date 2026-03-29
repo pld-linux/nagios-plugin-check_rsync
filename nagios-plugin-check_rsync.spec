@@ -2,7 +2,7 @@
 Summary:	Nagios rsync plugin
 Name:		nagios-plugin-%{plugin}
 Version:	1.02
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking
 Source0:	check_rsync.pl
