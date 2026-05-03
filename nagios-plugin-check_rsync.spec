@@ -2,7 +2,7 @@
 Summary:	Nagios rsync plugin
 Name:		nagios-plugin-%{plugin}
 Version:	1.02
-Release:	2
+Release:	3
 License:	GPL
 Group:		Networking
 Source0:	check_rsync.pl
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc/nagios/plugins
 %define		plugindir	%{_prefix}/lib/nagios/plugins
 
-%define		_noautoreq	perl(utils)
+%define		_noautoreq_perl		utils
 
 %description
 Checks rsync servers availability, as well as (optionally) individual
